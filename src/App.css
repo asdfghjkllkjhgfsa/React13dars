@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 30px;
+  gap: 35px;
+  align-items: start;
+  background-color: red;
+}
+
+button {
+  padding: 12px 35px;
+  font-size: 20px;
+  border-radius: 12px;
+  color: black;
+  border: 1px solid white;
+}
+
+button:nth-child(1){
+  background-color: red;
+}
+button:nth-child(2){
+  background-color: blue;
+}
+button:nth-child(3){
+  background-color: yellow;
+}
